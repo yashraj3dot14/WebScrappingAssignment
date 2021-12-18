@@ -8,7 +8,7 @@ from scipy import ImageFilter
 from scipy.ndimage import gaussian_filter
 import mechanize
 
-req = requests.get("https://drt.gov.in/front/page1_advocate.php")
+req = requests.get("#")
 
 soup = BeautifulSoup(req.content, "html.parser")
 
